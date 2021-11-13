@@ -1,0 +1,40 @@
+{
+  "name": "shashi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shashi",
+  "author": "shashi",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js, jsx, ts, tsx}": "yarn lint:fix"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "next": "^11.1.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^8.32.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "autoprefixer": "latest",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
+    "postcss": "latest",
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "typescript": "^4.4.2"
+  }
+}
