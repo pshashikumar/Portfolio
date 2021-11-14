@@ -15,7 +15,7 @@ import {
   SiAndroidstudio,
   SiEclipseide,
   SiHtml5,
-  SiCSS,
+  SiCss3,
 } from "react-icons/si";
 import { FaFolder, FaPencilRuler, FaUsers } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -73,7 +73,7 @@ const languages = [
     extended: false,
     color: "yellow",
     inProgress: true,
-    icon: [{<SiHtml5 />},{<SiCSS />}],
+    icon: [{<SiHtml5 />},{<SiCss3 />}],
     title: "HTML & CSS",
     year: "2019",
     tools: [
