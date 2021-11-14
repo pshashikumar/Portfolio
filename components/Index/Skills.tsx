@@ -72,7 +72,7 @@ const languages = [
     extended: false,
     color: "yellow",
     inProgress: true,
-    icon: <SiHtml5 />,
+    icon: [{<SiHtml5 />},{<SiCSS />}],
     title: "HTML & CSS",
     year: "2019",
     tools: [
