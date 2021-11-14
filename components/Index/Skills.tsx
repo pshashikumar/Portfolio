@@ -29,33 +29,9 @@ const languages = [
     color: "red",
     inProgress: false,
     icon: <SiC />,
-    title: "C Programming",
+    title: "C",
     year: "2018",
     tools: [{ name: "Eclipse", icon: <SiEclipseide /> }],
-  },
-  {
-    extended: false,
-    color: "blue",
-    inProgress: true,
-    icon: <SiJavascript />,
-    title: "JavaScript",
-    year: "2019",
-    tools: [
-      { name: "VSCode", icon: <SiVisualstudiocode /> },
-      { name: "WebStorm ", icon: <SiWebstorm /> },
-    ],
-  },
-  {
-    extended: false,
-    color: "yellow",
-    inProgress: true,
-    icon: <SiHtml5 />,
-    title: "HTML & CSS",
-    year: "2019",
-    tools: [
-      { name: "VSCode", icon: <SiVisualstudiocode /> },
-      { name: "WebStorm ", icon: <SiWebstorm /> },
-    ],
   },
   {
     extended: true,
@@ -78,8 +54,31 @@ const languages = [
     title: "Java",
     year: "2019",
     tools: [
+      { name: "VSCode", icon: <SiVisualstudiocode /> }],
+  },
+  {
+    extended: false,
+    color: "blue",
+    inProgress: true,
+    icon: <SiJavascript />,
+    title: "JavaScript",
+    year: "2019",
+    tools: [
       { name: "VSCode", icon: <SiVisualstudiocode /> },
-      { name: "Android Studio", icon: <SiAndroidstudio /> }],
+      { name: "WebStorm ", icon: <SiWebstorm /> },
+    ],
+  },
+    {
+    extended: false,
+    color: "yellow",
+    inProgress: true,
+    icon: <SiHtml5 />,
+    title: "HTML & CSS",
+    year: "2019",
+    tools: [
+      { name: "VSCode", icon: <SiVisualstudiocode /> },
+      { name: "WebStorm ", icon: <SiWebstorm /> },
+    ],
   },
 ];
 
