@@ -15,6 +15,7 @@ import {
   SiAndroidstudio,
   SiEclipseide,
   SiHtml5,
+  SiCSS,
 } from "react-icons/si";
 import { FaFolder, FaPencilRuler, FaUsers } from "react-icons/fa";
 import { motion } from "framer-motion";
